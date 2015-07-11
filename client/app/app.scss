@@ -1,0 +1,123 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+$fa-font-path: "/bower_components/font-awesome/fonts";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import 'font-awesome/scss/font-awesome';
+
+/**
+ * App-wide Styles
+ */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+// Component styles are injected through grunt
+// injector
+@import 'bourbon/_bourbon-deprecated-upcoming.scss';
+@import 'bourbon/_bourbon.scss';
+@import 'bourbon/addons/_border-color.scss';
+@import 'bourbon/addons/_border-radius.scss';
+@import 'bourbon/addons/_border-style.scss';
+@import 'bourbon/addons/_border-width.scss';
+@import 'bourbon/addons/_buttons.scss';
+@import 'bourbon/addons/_clearfix.scss';
+@import 'bourbon/addons/_ellipsis.scss';
+@import 'bourbon/addons/_font-stacks.scss';
+@import 'bourbon/addons/_hide-text.scss';
+@import 'bourbon/addons/_margin.scss';
+@import 'bourbon/addons/_padding.scss';
+@import 'bourbon/addons/_position.scss';
+@import 'bourbon/addons/_prefixer.scss';
+@import 'bourbon/addons/_retina-image.scss';
+@import 'bourbon/addons/_size.scss';
+@import 'bourbon/addons/_text-inputs.scss';
+@import 'bourbon/addons/_timing-functions.scss';
+@import 'bourbon/addons/_triangle.scss';
+@import 'bourbon/addons/_word-wrap.scss';
+@import 'bourbon/css3/_animation.scss';
+@import 'bourbon/css3/_appearance.scss';
+@import 'bourbon/css3/_backface-visibility.scss';
+@import 'bourbon/css3/_background-image.scss';
+@import 'bourbon/css3/_background.scss';
+@import 'bourbon/css3/_border-image.scss';
+@import 'bourbon/css3/_calc.scss';
+@import 'bourbon/css3/_columns.scss';
+@import 'bourbon/css3/_filter.scss';
+@import 'bourbon/css3/_flex-box.scss';
+@import 'bourbon/css3/_font-face.scss';
+@import 'bourbon/css3/_font-feature-settings.scss';
+@import 'bourbon/css3/_hidpi-media-query.scss';
+@import 'bourbon/css3/_hyphens.scss';
+@import 'bourbon/css3/_image-rendering.scss';
+@import 'bourbon/css3/_keyframes.scss';
+@import 'bourbon/css3/_linear-gradient.scss';
+@import 'bourbon/css3/_perspective.scss';
+@import 'bourbon/css3/_placeholder.scss';
+@import 'bourbon/css3/_radial-gradient.scss';
+@import 'bourbon/css3/_selection.scss';
+@import 'bourbon/css3/_text-decoration.scss';
+@import 'bourbon/css3/_transform.scss';
+@import 'bourbon/css3/_transition.scss';
+@import 'bourbon/css3/_user-select.scss';
+@import 'bourbon/functions/_assign-inputs.scss';
+@import 'bourbon/functions/_contains-falsy.scss';
+@import 'bourbon/functions/_contains.scss';
+@import 'bourbon/functions/_is-length.scss';
+@import 'bourbon/functions/_is-light.scss';
+@import 'bourbon/functions/_is-number.scss';
+@import 'bourbon/functions/_is-size.scss';
+@import 'bourbon/functions/_modular-scale.scss';
+@import 'bourbon/functions/_px-to-em.scss';
+@import 'bourbon/functions/_px-to-rem.scss';
+@import 'bourbon/functions/_shade.scss';
+@import 'bourbon/functions/_strip-units.scss';
+@import 'bourbon/functions/_tint.scss';
+@import 'bourbon/functions/_transition-property-name.scss';
+@import 'bourbon/functions/_unpack.scss';
+@import 'bourbon/helpers/_convert-units.scss';
+@import 'bourbon/helpers/_directional-values.scss';
+@import 'bourbon/helpers/_font-source-declaration.scss';
+@import 'bourbon/helpers/_gradient-positions-parser.scss';
+@import 'bourbon/helpers/_linear-angle-parser.scss';
+@import 'bourbon/helpers/_linear-gradient-parser.scss';
+@import 'bourbon/helpers/_linear-positions-parser.scss';
+@import 'bourbon/helpers/_linear-side-corner-parser.scss';
+@import 'bourbon/helpers/_radial-arg-parser.scss';
+@import 'bourbon/helpers/_radial-gradient-parser.scss';
+@import 'bourbon/helpers/_radial-positions-parser.scss';
+@import 'bourbon/helpers/_render-gradients.scss';
+@import 'bourbon/helpers/_shape-size-stripper.scss';
+@import 'bourbon/helpers/_str-to-num.scss';
+@import 'bourbon/settings/_asset-pipeline.scss';
+@import 'bourbon/settings/_prefixer.scss';
+@import 'bourbon/settings/_px-to-em.scss';
+@import 'main/main.scss';
+@import 'neat/_neat-helpers.scss';
+@import 'neat/_neat.scss';
+@import 'neat/functions/_new-breakpoint.scss';
+@import 'neat/functions/_private.scss';
+@import 'neat/grid/_box-sizing.scss';
+@import 'neat/grid/_direction-context.scss';
+@import 'neat/grid/_display-context.scss';
+@import 'neat/grid/_fill-parent.scss';
+@import 'neat/grid/_media.scss';
+@import 'neat/grid/_omega.scss';
+@import 'neat/grid/_outer-container.scss';
+@import 'neat/grid/_pad.scss';
+@import 'neat/grid/_private.scss';
+@import 'neat/grid/_row.scss';
+@import 'neat/grid/_shift.scss';
+@import 'neat/grid/_span-columns.scss';
+@import 'neat/grid/_to-deprecate.scss';
+@import 'neat/grid/_visual-grid.scss';
+@import 'neat/settings/_disable-warnings.scss';
+@import 'neat/settings/_grid.scss';
+@import 'neat/settings/_visual-grid.scss';
+@import 'modal/modal.scss';
+// endinjector
+
+
